@@ -1,2 +1,78 @@
 @import "compass/reset";
 @import "compass/css3";
+
+
+.header1 {
+		background: #464747;
+		height: 44px;
+		color: white;
+		li {
+			display: inline-block; 
+			margin-left: 34px;
+			margin-right: 34px;
+			padding: 6px 0;
+			}	
+}	
+
+.header2 {
+		background: #202020;
+		height: 44px;
+		color: white;
+		li {
+			display: inline-block; 
+			margin-left: 34px;
+			margin-right: 34px;
+			padding: 14px 0;
+			}	
+}
+
+.ss{
+	padding: 20px 0;
+}
+
+.upload{
+	margin:10px 20px 10px 20px; 
+	border: 2px solid;
+}
+
+.create{
+	/*font-family: fantasy;*/
+	font-size: 50px;
+	/* display: inline-block; */
+	color: white;
+	margin-top: 42px;
+	text-align: center;
+}
+
+.small{
+	/*font-family: fantasy;*/
+	font-size: 20px;
+	/* display: inline-block; */
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.thanks{
+	color: white;
+	font-size: 20px;
+	border: 1px solid white;
+	background-color: transparent;
+	width: 150px;
+	height: 60px;
+}
+
+.centerbutton{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.createnow{
+	color: white;
+	font-size: 20px;
+	border: 0px;
+	background-color: rgb(34, 86, 181);
+	width: 150px;
+	height: 60px;
+}

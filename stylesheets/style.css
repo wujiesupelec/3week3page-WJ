@@ -1,4 +1,4 @@
-/* line 5, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,131 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* line 5, ../sass/style.scss */
+.header1 {
+  background: #464747;
+  height: 44px;
+  color: white;
+}
+/* line 9, ../sass/style.scss */
+.header1 li {
+  display: inline-block;
+  margin-left: 34px;
+  margin-right: 34px;
+  padding: 6px 0;
+}
+
+/* line 17, ../sass/style.scss */
+.header2 {
+  background: #202020;
+  height: 44px;
+  color: white;
+}
+/* line 21, ../sass/style.scss */
+.header2 li {
+  display: inline-block;
+  margin-left: 34px;
+  margin-right: 34px;
+  padding: 14px 0;
+}
+
+/* line 29, ../sass/style.scss */
+.ss {
+  padding: 20px 0;
+}
+
+/* line 33, ../sass/style.scss */
+.upload {
+  margin: 10px 20px 10px 20px;
+  border: 2px solid;
+}
+
+/* line 38, ../sass/style.scss */
+.create {
+  /*font-family: fantasy;*/
+  font-size: 50px;
+  /* display: inline-block; */
+  color: white;
+  margin-top: 42px;
+  text-align: center;
+}
+
+/* line 47, ../sass/style.scss */
+.small {
+  /*font-family: fantasy;*/
+  font-size: 20px;
+  /* display: inline-block; */
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* line 56, ../sass/style.scss */
+.thanks {
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  width: 150px;
+  height: 60px;
+}
+
+/* line 65, ../sass/style.scss */
+.centerbutton {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 71, ../sass/style.scss */
+.createnow {
+  color: white;
+  font-size: 20px;
+  border: 0px;
+  background-color: #2256b5;
+  width: 150px;
+  height: 60px;
 }
