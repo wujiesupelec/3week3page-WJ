@@ -68,52 +68,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #464747;
   height: 44px;
   color: white;
+  padding: 10px 34px 10px 34px;
 }
-/* line 9, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 .header1 li {
   display: inline-block;
-  margin-left: 34px;
-  margin-right: 34px;
   padding: 6px 0;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 .header2 {
   background: #202020;
   height: 44px;
   color: white;
 }
-/* line 21, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .header2 li {
   display: inline-block;
-  margin-left: 34px;
+  margin-left: 50px;
   margin-right: 34px;
   padding: 14px 0;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .ss {
   padding: 20px 0;
 }
 
-/* line 33, ../sass/style.scss */
-.upload {
-  margin: 10px 20px 10px 20px;
-  border: 2px solid;
+/* line 35, ../sass/style.scss */
+.icononright {
+  color: white;
+  font-size: 10px;
+  background-color: orange;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
+.upload {
+  margin: 10px 30px 10px 20px;
+  border: none;
+  float: right;
+}
+
+/* line 51, ../sass/style.scss */
 .create {
   /*font-family: fantasy;*/
   font-size: 50px;
   /* display: inline-block; */
   color: white;
-  margin-top: 42px;
   text-align: center;
 }
 
-/* line 47, ../sass/style.scss */
-.small {
+/* line 59, ../sass/style.scss */
+.small1 {
   /*font-family: fantasy;*/
   font-size: 20px;
   /* display: inline-block; */
@@ -122,7 +132,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .thanks {
   color: white;
   font-size: 20px;
@@ -130,16 +140,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: transparent;
   width: 150px;
   height: 60px;
+  border-radius: 5px;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .centerbutton {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .createnow {
   color: white;
   font-size: 20px;
@@ -147,4 +158,86 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #2256b5;
   width: 150px;
   height: 60px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* line 96, ../sass/style.scss */
+.line1 {
+  border-bottom: 1px solid #bebebe;
+  bottom: 45%;
+  left: 633px;
+  position: relative;
+  width: 7%;
+  margin-top: 15px;
+}
+
+/* line 106, ../sass/style.scss */
+.picincenter {
+  text-align: center;
+  position: relative;
+}
+
+/* line 111, ../sass/style.scss */
+.footer {
+  background-color: #464747;
+  margin-top: -20px;
+}
+
+/* line 116, ../sass/style.scss */
+.small2 {
+  /*font-family: fantasy;*/
+  font-size: 20px;
+  /* display: inline-block; */
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+/* line 127, ../sass/style.scss */
+.footer1 {
+  background: transparent;
+  height: 105px;
+  color: white;
+  margin-top: 20px;
+}
+/* line 132, ../sass/style.scss */
+.footer1 li {
+  display: inline-block;
+  margin-left: 113px;
+  margin-right: 34px;
+  padding: 30px 0;
+}
+
+/* line 140, ../sass/style.scss */
+.footer2 {
+  background: transparent;
+  height: 44px;
+  color: white;
+}
+/* line 144, ../sass/style.scss */
+.footer2 li {
+  display: inline-block;
+  margin-left: 232px;
+  margin-right: 34px;
+  padding: 30px 0;
+}
+
+/* line 152, ../sass/style.scss */
+.footbutton {
+  color: #2E9FDE;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: 1px solid white;
+  background-color: white;
+  width: 135px;
+  height: 45px;
+  position: relative;
+  margin-bottom: 43px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 29px;
+  margin-left: 605px;
+  border-radius: 5px;
 }
